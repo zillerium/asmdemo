@@ -1,5 +1,5 @@
 section .text
- global main ;must be declared for linker (ld)
+ global main ;must be declared for linker (ld) this is a demo
 main: ;tells linker entry point
  mov edx,len ;message length
  mov ecx,msg ;message to write
